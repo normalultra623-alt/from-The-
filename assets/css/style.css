@@ -1,0 +1,225 @@
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 35px;
+  padding-bottom: 15px;
+  position: absolute;
+}
+header .contact {
+  position: relative;
+}
+header .contact ul {
+  display: flex;
+  padding-right: 5px;
+  padding-left: 900px;
+}
+header .contact ul li {
+  padding-right: 40px;
+  list-style: none;
+}
+header .contact ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 100%;
+  font-weight: 600;
+}
+header .writting {
+  padding-top: 5%;
+  width: 62%;
+  font-size: 30px;
+  color: white;
+}
+header .writting h1 {
+  font-size: 100px;
+  padding-bottom: 2%;
+}
+header .writting p {
+  padding-bottom: 2%;
+}
+header .writting a {
+  text-decoration: none;
+  color: #00E0FF;
+  font-size: 70px;
+}
+header .paraghraf {
+  display: flex;
+  font-size: 18px;
+  width: 78%;
+}
+header .paraghraf p {
+  margin-left: 45px;
+}
+header .paraghraf2 {
+  width: 56%;
+  font-size: 16px;
+}
+header .paraghraf2 p {
+  width: 59%;
+}
+header .image img {
+  padding-left: 30%;
+}
+
+.sectTwo {
+  font-size: 25px;
+  background-repeat: no-repeat;
+  background-image: url(https://ld-wp73.template-help.com/wordpress/prod_27837/v1/wp-content/uploads/2020/03/Rectangle-1-1.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+.sectTwo .letter {
+  width: 45%;
+  padding-bottom: 50px;
+}
+.sectTwo .paraghraf-about {
+  display: flex;
+  width: 70%;
+  padding-bottom: 5%;
+}
+.sectTwo .paraghraf-about i {
+  font-size: 45px;
+  padding-left: 5%;
+  color: #00E0FF;
+}
+.sectTwo .paraghraf-about p {
+  padding-top: 6%;
+}
+.sectTwo .link-button {
+  padding-left: 4%;
+}
+.sectTwo .link-button a {
+  color: white;
+  text-decoration: none;
+  transition: 2s;
+}
+.sectTwo .link-button a :hover i {
+  color: purple;
+  transition: 2s;
+}
+
+.sectThree {
+  background-repeat: no-repeat;
+  background-image: url(/assets/image/swimming-pool\ for\ race.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  padding-top: 8%;
+}
+.sectThree .box {
+  background-color: #5436CD;
+  width: 110px;
+  height: 180px;
+  font-size: 10px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  margin-left: 120%;
+  margin-right: 20%;
+}
+.sectThree .box .box:hover {
+  transform: rotateY(180deg);
+}
+.sectThree .box2 {
+  background-color: #02CFEE;
+  width: 300px;
+  height: 180px;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  margin-right: 10%;
+}
+.sectThree .box2 .box2:hover {
+  transform: rotateY(180deg);
+}
+.sectThree .box3 {
+  background-color: #152852;
+  width: 300px;
+  height: 180px;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+  margin-top: 50%;
+}
+.sectThree .box3 .box3:hover {
+  transform: rotateY(180deg);
+}
+.sectThree .paraghraf-word {
+  width: 29%;
+  display: flex;
+}
+
+.sectFour .box-img {
+  display: flex;
+}
+.sectFour .box-img img {
+  width: 33.3%;
+  height: 550px;
+}
+
+.sectFive {
+  background-repeat: no-repeat;
+  background-image: url(/assets/image/Rectangle-1.png);
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  color: white;
+  display: flex;
+  padding-left: 9%;
+  padding-top: 20%;
+}
+.sectFive .paraghraf h1 {
+  margin-top: -5%;
+  font-size: 50px;
+}
+.sectFive .paraghraf i {
+  padding-top: 30%;
+  font-size: 35px;
+  color: white;
+  transition: 2s;
+  transform: translate();
+}
+.sectFive .paraghraf i :hover {
+  color: #00E0FF;
+  transition: 2s;
+}
+.sectFive .word {
+  width: 69%;
+  padding-left: 20%;
+}
+.sectFive .word h3 {
+  margin-bottom: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sectFive .words-paragraph {
+  display: flex;
+  width: 80%;
+}
+.sectFive .phone {
+  padding-top: 5%;
+}
+.sectFive .phone a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  transition: 2s;
+}
+.sectFive .phone a :hover {
+  color: #00E0FF;
+  transition: 2s;
+}
+.sectFive .email a {
+  text-decoration: none;
+  color: #00E0FF;
+}
+.sectFive .email {
+  display: inline-block;
+  font-size: 20px;
+  transition: 2s;
+}
+.sectFive .email :hover {
+  color: white;
+  transition: 2s;
+}/*# sourceMappingURL=style.css.map */
